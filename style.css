@@ -1,0 +1,95 @@
+#MainPic {
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    margin: 0 0 3% 0;
+    box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.4);
+}
+
+body {
+    background: url(/img/back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.frame {
+    margin: 3% 15% 3% 15%;
+    border-radius: 25px;
+    padding: 1% 1% 1% 1%;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 35px 30px rgba(0, 0, 0, 0.6);
+}
+
+.pictures {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    margin: 3% 0 0 0;
+}
+
+.pictures img {
+    border: 1px solid black;
+}
+
+.text-main {
+    font-size: 16pt;
+    font-weight: 400;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: justify;
+    line-height: 150%;
+}
+
+#descript {
+    margin: 0 0 3% 0;
+}
+
+.text-heading {
+    font-size: 24pt;
+    font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+    line-height: 150%;
+}
+
+.text-heading-list {
+    font-size: 24pt;
+    font-weight: 700;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+    line-height: 150%;
+}
+
+button {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    width: 100%;
+    font-size: 1.5vw;
+    padding: 0.65vw 1.628vw;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 3% 0 0 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#har {
+    border: 2px solid black;
+    float: left;
+    margin: 3% 0 0 3%;
+    border-radius: 20px;
+}
+
+#fil {
+    border: 2px solid black;
+    float: right;
+    width: 40%;
+    margin: 3% 3% 0 0;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
